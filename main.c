@@ -1,6 +1,5 @@
-//ex4 - shell
+//Simple Shell
 //author: Liran Libster
-//id: 312414444
 //description: this program is a simple shell that runs given commands
 
 #include <stdio.h>
