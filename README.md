@@ -8,13 +8,21 @@ This program is a simple shell that runs given commands.
 Functions:
 
 buildArr - this function receives a string that the user inputs and the number of words in the string, builds a 2D array and return the array. 
+
 countWords - this function counts how many words in the string.
+
 freeArray - this function runs in all cells of the 2D array and free the allocated memory.
+
 printDir - prints the user id and the folder direction.
+
 pipeCount - counts how many pipes entered.
+
 onePipe - function that runs commands with 1 pipe.
+
 twoPipes - function that runs commands with 2 pipes.
+
 sigtstpHandler - handler that catches signal if process has stopped, this handler helps to save the stopped process pid (to use it later with fg) and then send signal to stop the son. the father process ignores the signal.
+
 sigchldHandler - handler that get signal each time when child process stopped or terminated, this handler helps to clear the 'zombie' status processes.
 
 ==Program files==
@@ -29,6 +37,7 @@ run: ./ex4
 ==Input==
 
 sentence followed by enter
+
 example: ls -l
 
 example 2: ls -l|wc -l
