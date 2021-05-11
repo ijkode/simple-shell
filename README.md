@@ -17,13 +17,17 @@ sigtstpHandler - handler that catches signal if process has stopped, this handle
 sigchldHandler - handler that get signal each time when child process stopped or terminated, this handler helps to clear the 'zombie' status processes.
 
 ==Program files==
+
+
 ex4.c
 
 ==How to compile==
+
 compile: gcc ex4.c -o ex4
 run: ./ex4
 
 ==Input==
+
 sentence followed by enter
 example: ls -l
 example 2: ls -l|wc -l
