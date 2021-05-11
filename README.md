@@ -1,5 +1,4 @@
 Simple Shell
-
 Authored by Liran Libster
 
 ==Description==
@@ -19,9 +18,11 @@ sigtstpHandler - handler that catches signal if process has stopped, this handle
 sigchldHandler - handler that get signal each time when child process stopped or terminated, this handler helps to clear the 'zombie' status processes.
 
 ==Program files==
+
 ex4.c
 
 ==How to compile==
+
 compile: gcc ex4.c -o ex4
 run: ./ex4
 
@@ -39,6 +40,7 @@ example 4: wc, next press ctrl+z and then type fg
 to exit type: done
 
 ==Output==
+
 example 1: will display a list of files or directories with information about each one. 
 
 example 2: prints how many files in the current folder.
@@ -50,6 +52,7 @@ example 4: the terminal starts wc command, after pressing ctrl+z the wc proccess
 when exiting: the program will end by printing number of commands and number of pipes, and then see you next time!
 
 exit example:
+
 "Number of commands: 4
 
 Number of pipes: 2
